@@ -8,4 +8,6 @@ $ip = $_SERVER['REMOTE_ADDR'];
 
 $select_stmt_in=$db->prepare("INSERT INTO tbl_visit (kd_instructor, ip_address, tgl, jam, kd_user,page) VALUES ('$_GET[kd_inst]', '$ip', '$tglin', '$jamin', '$_SESSION[yo_kd_user]','home')");	
 $select_stmt_in->execute();
+
+//tes edit
 ?>

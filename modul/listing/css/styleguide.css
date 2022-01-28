@@ -1,0 +1,184 @@
+:root { 
+  --abbey: #4f4f4f;
+  --black: #000000;
+  --black-2: #00000099;
+  --blueberry: #4b82ec;
+  --blueberry-2: #4b81ec;
+  --coconut: #fefefe;
+  --gargoyle-gas: #ffde3a;
+  --malachite: #00cc34;
+  --mercury: #e6e6e6;
+  --white: #ffffff;
+ 
+  --font-size-l: 48px;
+  --font-size-m: 16px;
+  --font-size-s: 15px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 13px;
+  --font-size-xxxs: 10px;
+  --font-size-xxxxs: 8px;
+ 
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-montserrat-light: "Montserrat-Light", Helvetica;
+  --font-family-montserrat-regular: "Montserrat-Regular", Helvetica;
+  --font-family-open_sans: "Open Sans", Helvetica;
+}
+.opensans-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-semi-bold-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.opensans-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-normal-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-abbey-11px {
+  color: var(--abbey);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.opensans-bold-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-semi-bold-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.opensans-bold-malachite-16px {
+  color: var(--malachite);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-regular-normal-abbey-8px {
+  color: var(--abbey);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-semi-bold-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.opensans-semi-bold-black-17px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.opensans-normal-black-14px-2 {
+  color: var(--black-2);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-blueberry-10px {
+  color: var(--blueberry-2);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-abbey-16px {
+  color: var(--abbey);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-mercury {
+  border: 1px solid var(--mercury);
+}
+
+.border-1px-black {
+  border: 1px solid var(--black);
+}

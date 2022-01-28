@@ -1,0 +1,4856 @@
+/* screen - profile-desktop */
+
+.profile-desktop {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  /*height: 1469px;*/
+  width: 1280px;
+}
+
+.profile-desktop .header {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 4;
+}
+
+.profile-desktop .logo-instructor {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-desktop .rectangle-2 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 1280px;
+}
+
+.profile-desktop .overlap-group2 {
+  /*height: 473px;*/
+  margin-top: 70px;
+  position: relative;
+  width: 1280px;
+  z-index: 1;
+}
+
+.profile-desktop .bg-dummy {
+  height: 197px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.profile-desktop .group-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 365px;
+  /*min-height: 797px;*/
+  position: absolute;
+  top: 26px;
+  width: 847px;
+  
+}
+
+.profile-desktop .name {
+  letter-spacing: 0;
+  min-height: 59px;
+}
+
+.profile-desktop .group-11 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 845px;
+}
+
+.profile-desktop .group-6 {
+  align-items: center;
+  display: flex;
+  min-width: 173px;
+}
+
+.profile-desktop .group-5 {
+  height: 26px;
+  width: 138px;
+}
+
+.profile-desktop .text-3 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop .group-7 {
+  align-items: center;
+  display: flex;
+  margin-left: 38px;
+  min-width: 113px;
+}
+
+.profile-desktop .certified {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 80px;
+}
+
+.profile-desktop .ic-verified {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop .group-10 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 329px;
+  min-width: 192px;
+}
+
+.profile-desktop .group-8 {
+  align-items: center;
+  display: flex;
+  min-width: 97px;
+}
+
+.profile-desktop .like {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 30px;
+  text-align: right;
+}
+
+.profile-desktop .ic-like {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop .number {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop .group-9 {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  min-width: 77px;
+}
+
+.profile-desktop .share {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 44px;
+}
+
+.profile-desktop .ic-share {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop .group-49 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 89px;
+  width: 789px;
+}
+
+.profile-desktop .bio {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop .frame-1-1 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-top: 15px;
+  min-width: 787px;
+  padding: 0 16px;
+}
+
+.profile-desktop .text-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 755px;
+}
+
+.profile-desktop .group-18 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 69px;
+  width: 100%;
+}
+
+.profile-desktop .choose-price {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop .group-16 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 331px;
+}
+
+.profile-desktop .rp-200000hour {
+  letter-spacing: 0;
+  min-height: 38px;
+  min-width: 281px;
+}
+
+.profile-desktop .ic-down {
+  height: 38px;
+  margin-left: 10px;
+  width: 38px;
+}
+
+.profile-desktop .frame-2 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 28px;
+  min-width: 220px;
+}
+
+.profile-desktop .book-now {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 220px;
+}
+
+.profile-desktop .group-17 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+ /* min-height: 344px;*/
+  width: 849px;
+}
+
+.profile-desktop .choose-package {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop .group-15 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 354px;
+}
+
+.profile-desktop .frame-2-1 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop .package {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 76px;
+}
+
+.profile-desktop .frame {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  margin-left: 15px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop .text-2 {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 24px;
+  min-height: 81px;
+  width: 845px;
+}
+
+.profile-desktop .group-56 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 61px;
+  width: 147px;
+}
+
+.profile-desktop .surname {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop .price {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 29px;
+}
+
+.profile-desktop .frame-2-2 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 20px;
+  min-width: 220px;
+}
+
+.profile-desktop .group-26 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 70px;
+  min-height: 777px;
+  position: absolute;
+  top: 70px;
+  width: 255px;
+}
+
+.profile-desktop .dummy-image {
+  height: 255px;
+  object-fit: cover;
+  width: 255px;
+}
+
+.profile-desktop .qr-c-ode-desktop {
+  height: 255px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.profile-desktop .group-25 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 227px;
+  width: 257px;
+}
+
+.profile-desktop .available-on {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop .frame-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 192px;
+  padding: 12px 16px;
+  width: 255px;
+}
+
+.profile-desktop .frame-1 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 209px;
+}
+
+.profile-desktop .monday {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop .text {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 104px;
+}
+
+.profile-desktop .tuesday {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop .wednesday {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop .friday {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop .group-47 {
+  /*align-items: flex-start;*/
+  /*display: block;*/
+  /*flex-direction: column;*/
+  /*top:100px;*/
+  margin-right: 70px;
+  margin-top: 100px;
+  min-height: 648px;
+  /*height:auto;*/
+  width: 845px;
+  z-index: 0;
+  /*position:relative;*/
+  
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  
+}
+
+.profile-desktop .overlap-group {
+  height: 39px;
+  position: relative;
+  width: 845px;
+}
+
+.profile-desktop .rectangle-6 {
+  background-color: var(--mercury);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 845px;
+}
+
+.profile-desktop .group-21 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 829px;
+  position: absolute;
+  top: 0;
+}
+
+.profile-desktop .group-20 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 39px;
+  width: 125px;
+}
+
+.profile-desktop .instructor-type {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.profile-desktop .rectangle-7 {
+  background-color: var(--black);
+  height: 5px;
+  margin-top: 12px;
+  width: 38px;
+}
+
+.profile-desktop .who-do-they-train {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 26px;
+  min-height: 22px;
+  min-width: 134px;
+}
+
+.profile-desktop .where-do-they-train {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 149px;
+}
+
+.profile-desktop .posts {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 41px;
+}
+
+.profile-desktop .text-4 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 171px;
+}
+
+.profile-desktop .reviews {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+}
+
+.profile-desktop .overlap-group1 {
+  height: 285px;
+  margin-top: 24px;
+  position: relative;
+  width: 216px;
+}
+
+.profile-desktop .frame-3 {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 216px;
+}
+
+.profile-desktop .frame-8 {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 216px;
+  position: absolute;
+  top: 49px;
+}
+
+.profile-desktop .bodybuilding {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 164px;
+}
+
+.profile-desktop .frame-4 {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 216px;
+  position: absolute;
+  top: 96px;
+}
+
+.profile-desktop .body-sculpting {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 164px;
+}
+
+.profile-desktop .frame-5-1 {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 216px;
+  position: absolute;
+  top: 143px;
+}
+
+.profile-desktop .weight-loss {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 164px;
+}
+
+.profile-desktop .frame-6 {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 216px;
+  position: absolute;
+  top: 190px;
+}
+
+.profile-desktop .weight-gain {
+  letter-spacing: 0;
+  min-height: 20px;
+  width: 164px;
+}
+
+.profile-desktop .frame-7 {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 237px;
+  width: 216px;
+}
+
+.profile-desktop .header-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 68px;
+  min-height: 70px;
+  width: 1280px;
+  z-index: 2;
+}
+
+.profile-desktop .rectangle-2-1 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 1280px;
+}
+
+.profile-desktop .logo-instructor-1 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+/* screen - profile-desktop-before-after-img */
+
+.profile-desktop-before-after-img {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 1591px;
+  width: 1280px;
+}
+
+.profile-desktop-before-after-img .header-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 4;
+}
+
+.profile-desktop-before-after-img .logo-instructor-2 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-desktop-before-after-img .rectangle-2-2 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 1280px;
+}
+
+.profile-desktop-before-after-img .overlap-group1-1 {
+  height: 873px;
+  margin-top: 70px;
+  position: relative;
+  width: 1280px;
+  z-index: 1;
+}
+
+.profile-desktop-before-after-img .bg-dummy-1 {
+  height: 197px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.profile-desktop-before-after-img .group-49-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 365px;
+  min-height: 797px;
+  position: absolute;
+  top: 76px;
+  width: 847px;
+}
+
+.profile-desktop-before-after-img .name-1 {
+  letter-spacing: 0;
+  min-height: 59px;
+}
+
+.profile-desktop-before-after-img .group-11-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 845px;
+}
+
+.profile-desktop-before-after-img .group-6-1 {
+  align-items: center;
+  display: flex;
+  min-width: 173px;
+}
+
+.profile-desktop-before-after-img .group-5-1 {
+  height: 26px;
+  width: 138px;
+}
+
+.profile-desktop-before-after-img .text-61 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-before-after-img .group-7-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 38px;
+  min-width: 113px;
+}
+
+.profile-desktop-before-after-img .certified-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 80px;
+}
+
+.profile-desktop-before-after-img .ic-verified-1 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-before-after-img .group-10-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 329px;
+  min-width: 192px;
+}
+
+.profile-desktop-before-after-img .group-8-1 {
+  align-items: center;
+  display: flex;
+  min-width: 97px;
+}
+
+.profile-desktop-before-after-img .like-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 30px;
+  text-align: right;
+}
+
+.profile-desktop-before-after-img .ic-like-1 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-before-after-img .number-1 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-before-after-img .group-9-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  min-width: 77px;
+}
+
+.profile-desktop-before-after-img .share-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 44px;
+}
+
+.profile-desktop-before-after-img .ic-share-1 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-before-after-img .group-49-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 89px;
+  width: 789px;
+}
+
+.profile-desktop-before-after-img .bio-1 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-before-after-img .frame-1-2 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-top: 15px;
+  min-width: 787px;
+  padding: 0 16px;
+}
+
+.profile-desktop-before-after-img .text-59 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 755px;
+}
+
+.profile-desktop-before-after-img .group-18-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 69px;
+  width: 331px;
+}
+
+.profile-desktop-before-after-img .choose-price-1 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-before-after-img .group-16-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 331px;
+}
+
+.profile-desktop-before-after-img .rp-200000hour-1 {
+  letter-spacing: 0;
+  min-height: 38px;
+  min-width: 281px;
+}
+
+.profile-desktop-before-after-img .ic-down-1 {
+  height: 38px;
+  margin-left: 10px;
+  width: 38px;
+}
+
+.profile-desktop-before-after-img .frame-2-3 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 28px;
+  min-width: 220px;
+}
+
+.profile-desktop-before-after-img .book-now-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 220px;
+}
+
+.profile-desktop-before-after-img .group-17-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  min-height: 344px;
+  width: 849px;
+}
+
+.profile-desktop-before-after-img .choose-package-1 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-before-after-img .group-15-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 354px;
+}
+
+.profile-desktop-before-after-img .frame-2-4 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-before-after-img .package-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 76px;
+}
+
+.profile-desktop-before-after-img .frame-9 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  margin-left: 15px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-before-after-img .text-60 {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 24px;
+  min-height: 81px;
+  width: 845px;
+}
+
+.profile-desktop-before-after-img .group-56-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 61px;
+  width: 147px;
+}
+
+.profile-desktop-before-after-img .surname-1 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-before-after-img .price-1 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 29px;
+}
+
+.profile-desktop-before-after-img .frame-2-5 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 20px;
+  min-width: 220px;
+}
+
+.profile-desktop-before-after-img .group-60 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 70px;
+  min-height: 777px;
+  position: absolute;
+  top: 70px;
+  width: 255px;
+}
+
+.profile-desktop-before-after-img .dummy-image-1 {
+  height: 255px;
+  object-fit: cover;
+  width: 255px;
+}
+
+.profile-desktop-before-after-img .qr-c-ode {
+  height: 255px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.profile-desktop-before-after-img .group-25-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 227px;
+  width: 257px;
+}
+
+.profile-desktop-before-after-img .available-on-1 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-before-after-img .frame-5-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 192px;
+  padding: 12px 16px;
+  width: 255px;
+}
+
+.profile-desktop-before-after-img .frame-10 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 209px;
+}
+
+.profile-desktop-before-after-img .monday-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-before-after-img .text-6 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 104px;
+}
+
+.profile-desktop-before-after-img .tuesday-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-before-after-img .wednesday-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-before-after-img .friday-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-before-after-img .group-59 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 69px;
+  margin-top: 40px;
+  min-height: 476px;
+  width: 846px;
+  z-index: 3;
+}
+
+.profile-desktop-before-after-img .overlap-group-1 {
+  height: 39px;
+  position: relative;
+  width: 845px;
+}
+
+.profile-desktop-before-after-img .rectangle-6-1 {
+  background-color: var(--mercury);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 845px;
+}
+
+.profile-desktop-before-after-img .group-21-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 822px;
+  position: absolute;
+  top: 0;
+}
+
+.profile-desktop-before-after-img .instructor-type-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 114px;
+}
+
+.profile-desktop-before-after-img .who-do-they-train-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 134px;
+}
+
+.profile-desktop-before-after-img .where-do-they-train-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 149px;
+}
+
+.profile-desktop-before-after-img .group-20-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 39px;
+  width: 45px;
+}
+
+.profile-desktop-before-after-img .posts-1 {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.profile-desktop-before-after-img .rectangle-7-1 {
+  background-color: var(--black);
+  height: 5px;
+  margin-top: 12px;
+  width: 38px;
+}
+
+.profile-desktop-before-after-img .text-62 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 26px;
+  min-height: 22px;
+  min-width: 171px;
+}
+
+.profile-desktop-before-after-img .reviews-1 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+}
+
+.profile-desktop-before-after-img .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: -0.25px;
+  margin-top: 24px;
+  min-width: 846px;
+}
+
+.profile-desktop-before-after-img .before-img {
+  height: 413px;
+  object-fit: cover;
+  width: 413px;
+}
+
+.profile-desktop-before-after-img .after-img {
+  height: 413px;
+  margin-left: 20px;
+  object-fit: cover;
+  width: 413px;
+}
+
+.profile-desktop-before-after-img .header-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+  min-height: 70px;
+  width: 1280px;
+  z-index: 2;
+}
+
+.profile-desktop-before-after-img .rectangle-2-3 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 1280px;
+}
+
+.profile-desktop-before-after-img .logo-instructor-3 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+/* screen - profile-desktop-reviews */
+
+.profile-desktop-reviews {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 2239px;
+  width: 1280px;
+}
+
+.profile-desktop-reviews .header-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 4;
+}
+
+.profile-desktop-reviews .logo-instructor-4 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-desktop-reviews .rectangle-2-4 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 1280px;
+}
+
+.profile-desktop-reviews .overlap-group2-1 {
+  height: 873px;
+  margin-top: 70px;
+  position: relative;
+  width: 1280px;
+  z-index: 1;
+}
+
+.profile-desktop-reviews .bg-dummy-2 {
+  height: 197px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.profile-desktop-reviews .group-49-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 365px;
+  min-height: 797px;
+  position: absolute;
+  top: 76px;
+  width: 847px;
+}
+
+.profile-desktop-reviews .name-2 {
+  letter-spacing: 0;
+  min-height: 59px;
+}
+
+.profile-desktop-reviews .group-11-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 845px;
+}
+
+.profile-desktop-reviews .group-6-2 {
+  align-items: center;
+  display: flex;
+  min-width: 173px;
+}
+
+.profile-desktop-reviews .group {
+  height: 26px;
+  width: 138px;
+}
+
+.profile-desktop-reviews .text-38 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-reviews .group-7-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 38px;
+  min-width: 113px;
+}
+
+.profile-desktop-reviews .certified-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 80px;
+}
+
+.profile-desktop-reviews .ic-verified-2 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-reviews .group-10-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 329px;
+  min-width: 192px;
+}
+
+.profile-desktop-reviews .group-8-2 {
+  align-items: center;
+  display: flex;
+  min-width: 97px;
+}
+
+.profile-desktop-reviews .like-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 30px;
+  text-align: right;
+}
+
+.profile-desktop-reviews .ic-like-2 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-reviews .number-2 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-reviews .group-9-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  min-width: 77px;
+}
+
+.profile-desktop-reviews .share-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 44px;
+}
+
+.profile-desktop-reviews .ic-share-2 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-reviews .group-49-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 89px;
+  width: 789px;
+}
+
+.profile-desktop-reviews .bio-2 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-reviews .frame-1-3 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-top: 15px;
+  min-width: 787px;
+  padding: 0 16px;
+}
+
+.profile-desktop-reviews .text-36 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 755px;
+}
+
+.profile-desktop-reviews .group-18-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 69px;
+  width: 331px;
+}
+
+.profile-desktop-reviews .choose-price-2 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-reviews .group-16-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 331px;
+}
+
+.profile-desktop-reviews .rp-200000hour-2 {
+  letter-spacing: 0;
+  min-height: 38px;
+  min-width: 281px;
+}
+
+.profile-desktop-reviews .ic-down-2 {
+  height: 38px;
+  margin-left: 10px;
+  width: 38px;
+}
+
+.profile-desktop-reviews .frame-2-6 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 28px;
+  min-width: 220px;
+}
+
+.profile-desktop-reviews .book-now-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 220px;
+}
+
+.profile-desktop-reviews .group-17-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  min-height: 344px;
+  width: 849px;
+}
+
+.profile-desktop-reviews .choose-package-2 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-reviews .group-15-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 354px;
+}
+
+.profile-desktop-reviews .frame-2-7 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-reviews .package-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 76px;
+}
+
+.profile-desktop-reviews .frame-11 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  margin-left: 15px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-reviews .text-37 {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 24px;
+  min-height: 81px;
+  width: 845px;
+}
+
+.profile-desktop-reviews .group-56-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 61px;
+  width: 147px;
+}
+
+.profile-desktop-reviews .surname-2 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-reviews .price-2 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 29px;
+}
+
+.profile-desktop-reviews .frame-2-8 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 20px;
+  min-width: 220px;
+}
+
+.profile-desktop-reviews .group-59-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 70px;
+  min-height: 777px;
+  position: absolute;
+  top: 70px;
+  width: 255px;
+}
+
+.profile-desktop-reviews .dummy-image-2 {
+  height: 255px;
+  object-fit: cover;
+  width: 255px;
+}
+
+.profile-desktop-reviews .qr-c-ode-1 {
+  height: 255px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.profile-desktop-reviews .group-25-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 227px;
+  width: 257px;
+}
+
+.profile-desktop-reviews .available-on-2 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-reviews .frame-5-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 192px;
+  padding: 12px 16px;
+  width: 255px;
+}
+
+.profile-desktop-reviews .frame-12 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 209px;
+}
+
+.profile-desktop-reviews .monday-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-reviews .text-4-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 104px;
+}
+
+.profile-desktop-reviews .tuesday-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-reviews .wednesday-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-reviews .friday-2 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-reviews .overlap-group1-2 {
+  height: 1144px;
+  margin-right: 70px;
+  margin-top: 40px;
+  position: relative;
+  width: 845px;
+  z-index: 3;
+}
+
+.profile-desktop-reviews .group-58 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1144px;
+  position: absolute;
+  top: 0;
+  width: 845px;
+}
+
+.profile-desktop-reviews .overlap-group-2 {
+  height: 39px;
+  position: relative;
+  width: 845px;
+}
+
+.profile-desktop-reviews .rectangle-6-2 {
+  background-color: var(--mercury);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 845px;
+}
+
+.profile-desktop-reviews .group-21-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 825px;
+  position: absolute;
+  top: 0;
+}
+
+.profile-desktop-reviews .instructor-type-2 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 114px;
+}
+
+.profile-desktop-reviews .who-do-they-train-2 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 134px;
+}
+
+.profile-desktop-reviews .where-do-they-train-2 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 149px;
+}
+
+.profile-desktop-reviews .posts-2 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 41px;
+}
+
+.profile-desktop-reviews .text-39 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 171px;
+}
+
+.profile-desktop-reviews .group-20-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 39px;
+  width: 68px;
+}
+
+.profile-desktop-reviews .views {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.profile-desktop-reviews .rectangle-7-3 {
+  background-color: var(--black);
+  height: 5px;
+  margin-top: 12px;
+  width: 38px;
+}
+
+.profile-desktop-reviews .group-39 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  min-height: 1081px;
+  width: 847px;
+}
+
+.profile-desktop-reviews .group-40 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  min-height: 191px;
+  width: 845px;
+}
+
+.profile-desktop-reviews .group-34 {
+  align-items: flex-start;
+  display: flex;
+  height: 170px;
+  min-width: 845px;
+}
+
+.profile-desktop-reviews .pic-dummy {
+  height: 75px;
+  object-fit: cover;
+  width: 75px;
+}
+
+.profile-desktop-reviews .group-30 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  min-height: 170px;
+  width: 756px;
+}
+
+.profile-desktop-reviews .name-3 {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 23px;
+}
+
+.profile-desktop-reviews .address {
+  letter-spacing: 0;
+  margin-top: 4px;
+  min-height: 19px;
+  width: 750px;
+}
+
+.profile-desktop-reviews .text-4-2 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 10px;
+  min-height: 78px;
+  width: 750px;
+}
+
+.profile-desktop-reviews .rectangle-7-2 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 20px;
+  width: 845px;
+}
+
+.profile-desktop-reviews .group-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 191px;
+  width: 845px;
+}
+
+.profile-desktop-reviews .andika-fratama {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 23px;
+}
+
+.profile-desktop-reviews .arman-fikri {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 23px;
+}
+
+.profile-desktop-reviews .ujang-rahmat {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 23px;
+}
+
+.profile-desktop-reviews .name-4 {
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 23px;
+}
+
+.profile-desktop-reviews .view-more {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  left: 266px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: underline;
+  top: 904px;
+  width: 313px;
+}
+
+.profile-desktop-reviews .header-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+  min-height: 70px;
+  width: 1280px;
+  z-index: 2;
+}
+
+.profile-desktop-reviews .rectangle-2-5 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 1280px;
+}
+
+.profile-desktop-reviews .logo-instructor-5 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+/* screen - profile-desktop-socmed-contact */
+
+.profile-desktop-socmed-contact {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 1323px;
+  width: 1280px;
+}
+
+.profile-desktop-socmed-contact .header-6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 4;
+}
+
+.profile-desktop-socmed-contact .logo-instructor-6 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-desktop-socmed-contact .rectangle-2-6 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 1280px;
+}
+
+.profile-desktop-socmed-contact .overlap-group1-3 {
+  height: 873px;
+  margin-top: 70px;
+  position: relative;
+  width: 1280px;
+  z-index: 1;
+}
+
+.profile-desktop-socmed-contact .bg-dummy-3 {
+  height: 197px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.profile-desktop-socmed-contact .group-49-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 365px;
+  min-height: 797px;
+  position: absolute;
+  top: 76px;
+  width: 847px;
+}
+
+.profile-desktop-socmed-contact .name-5 {
+  letter-spacing: 0;
+  min-height: 59px;
+}
+
+.profile-desktop-socmed-contact .group-11-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 845px;
+}
+
+.profile-desktop-socmed-contact .group-6-3 {
+  align-items: center;
+  display: flex;
+  min-width: 173px;
+}
+
+.profile-desktop-socmed-contact .group-5-2 {
+  height: 26px;
+  width: 138px;
+}
+
+.profile-desktop-socmed-contact .text-51 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-socmed-contact .group-7-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 38px;
+  min-width: 113px;
+}
+
+.profile-desktop-socmed-contact .certified-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 80px;
+}
+
+.profile-desktop-socmed-contact .ic-verified-3 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-socmed-contact .group-10-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 329px;
+  min-width: 192px;
+}
+
+.profile-desktop-socmed-contact .group-8-3 {
+  align-items: center;
+  display: flex;
+  min-width: 97px;
+}
+
+.profile-desktop-socmed-contact .like-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 30px;
+  text-align: right;
+}
+
+.profile-desktop-socmed-contact .ic-like-3 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-socmed-contact .number-3 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-socmed-contact .group-9-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  min-width: 77px;
+}
+
+.profile-desktop-socmed-contact .share-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 44px;
+}
+
+.profile-desktop-socmed-contact .ic-share-3 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-socmed-contact .group-49-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 89px;
+  width: 789px;
+}
+
+.profile-desktop-socmed-contact .bio-3 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-socmed-contact .frame-1-4 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-top: 15px;
+  min-width: 787px;
+  padding: 0 16px;
+}
+
+.profile-desktop-socmed-contact .text-49 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 755px;
+}
+
+.profile-desktop-socmed-contact .group-18-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 69px;
+  width: 331px;
+}
+
+.profile-desktop-socmed-contact .choose-price-3 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-socmed-contact .group-16-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 331px;
+}
+
+.profile-desktop-socmed-contact .rp-200000hour-3 {
+  letter-spacing: 0;
+  min-height: 38px;
+  min-width: 281px;
+}
+
+.profile-desktop-socmed-contact .ic-down-3 {
+  height: 38px;
+  margin-left: 10px;
+  width: 38px;
+}
+
+.profile-desktop-socmed-contact .frame-2-9 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 28px;
+  min-width: 220px;
+}
+
+.profile-desktop-socmed-contact .book-now-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 220px;
+}
+
+.profile-desktop-socmed-contact .group-17-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  min-height: 344px;
+  width: 849px;
+}
+
+.profile-desktop-socmed-contact .choose-package-3 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-socmed-contact .group-15-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 354px;
+}
+
+.profile-desktop-socmed-contact .frame-2-10 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-socmed-contact .package-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 76px;
+}
+
+.profile-desktop-socmed-contact .frame-13 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  margin-left: 15px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-socmed-contact .text-50 {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 24px;
+  min-height: 81px;
+  width: 845px;
+}
+
+.profile-desktop-socmed-contact .group-56-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 61px;
+  width: 147px;
+}
+
+.profile-desktop-socmed-contact .surname-3 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-socmed-contact .price-3 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 29px;
+}
+
+.profile-desktop-socmed-contact .frame-2-11 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 20px;
+  min-width: 220px;
+}
+
+.profile-desktop-socmed-contact .group-61 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 70px;
+  min-height: 777px;
+  position: absolute;
+  top: 70px;
+  width: 255px;
+}
+
+.profile-desktop-socmed-contact .dummy-image-3 {
+  height: 255px;
+  object-fit: cover;
+  width: 255px;
+}
+
+.profile-desktop-socmed-contact .qr-c-ode-2 {
+  height: 255px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.profile-desktop-socmed-contact .group-25-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 227px;
+  width: 257px;
+}
+
+.profile-desktop-socmed-contact .available-on-3 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-socmed-contact .frame-5-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 192px;
+  padding: 12px 16px;
+  width: 255px;
+}
+
+.profile-desktop-socmed-contact .frame-14 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 209px;
+}
+
+.profile-desktop-socmed-contact .monday-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-socmed-contact .text-5 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 104px;
+}
+
+.profile-desktop-socmed-contact .tuesday-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-socmed-contact .wednesday-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-socmed-contact .friday-3 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-socmed-contact .group-60-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  margin-top: 40px;
+  min-height: 213px;
+  width: 845px;
+  z-index: 3;
+}
+
+.profile-desktop-socmed-contact .overlap-group-3 {
+  height: 39px;
+  position: relative;
+  width: 845px;
+}
+
+.profile-desktop-socmed-contact .rectangle-6-3 {
+  background-color: var(--mercury);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 845px;
+}
+
+.profile-desktop-socmed-contact .group-21-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 832px;
+  position: absolute;
+  top: 0;
+}
+
+.profile-desktop-socmed-contact .instructor-type-3 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 114px;
+}
+
+.profile-desktop-socmed-contact .who-do-they-train-3 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 134px;
+}
+
+.profile-desktop-socmed-contact .where-do-they-train-3 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 149px;
+}
+
+.profile-desktop-socmed-contact .posts-3 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 41px;
+}
+
+.profile-desktop-socmed-contact .group-20-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 39px;
+  width: 185px;
+}
+
+.profile-desktop-socmed-contact .text-52 {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.profile-desktop-socmed-contact .rectangle-7-4 {
+  background-color: var(--black);
+  height: 5px;
+  margin-top: 12px;
+  width: 38px;
+}
+
+.profile-desktop-socmed-contact .reviews-2 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 26px;
+  min-height: 22px;
+}
+
+.profile-desktop-socmed-contact .group-32 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  min-height: 150px;
+  width: 259px;
+}
+
+.profile-desktop-socmed-contact .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 228px;
+}
+
+.profile-desktop-socmed-contact .ic-ig {
+  height: 42px;
+  width: 42px;
+}
+
+.profile-desktop-socmed-contact .flex-row-item {
+  height: 42px;
+  margin-left: 20px;
+  width: 42px;
+}
+
+.profile-desktop-socmed-contact .text-53 {
+  letter-spacing: 0;
+  margin-top: 24px;
+  min-height: 22px;
+  width: 255px;
+}
+
+.profile-desktop-socmed-contact .text-54 {
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 10px;
+  min-height: 52px;
+  text-decoration: underline;
+  width: 255px;
+}
+
+.profile-desktop-socmed-contact .header-7 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 57px;
+  min-height: 70px;
+  width: 1280px;
+  z-index: 2;
+}
+
+.profile-desktop-socmed-contact .rectangle-2-7 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 1280px;
+}
+
+.profile-desktop-socmed-contact .logo-instructor-7 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+/* screen - profile-desktop-where-do-you-train */
+
+.profile-desktop-where-do-you-train {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 1189px;
+  width: 1280px;
+}
+
+.profile-desktop-where-do-you-train .header-8 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 4;
+}
+
+.profile-desktop-where-do-you-train .logo-instructor-8 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-desktop-where-do-you-train .rectangle-2-8 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 1280px;
+}
+
+.profile-desktop-where-do-you-train .overlap-group1-4 {
+  height: 873px;
+  margin-top: 70px;
+  position: relative;
+  width: 1280px;
+  z-index: 1;
+}
+
+.profile-desktop-where-do-you-train .bg-dummy-4 {
+  height: 197px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.profile-desktop-where-do-you-train .group-49-7 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 365px;
+  min-height: 797px;
+  position: absolute;
+  top: 76px;
+  width: 847px;
+}
+
+.profile-desktop-where-do-you-train .name-6 {
+  letter-spacing: 0;
+  min-height: 59px;
+}
+
+.profile-desktop-where-do-you-train .group-11-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 845px;
+}
+
+.profile-desktop-where-do-you-train .group-6-4 {
+  align-items: center;
+  display: flex;
+  min-width: 173px;
+}
+
+.profile-desktop-where-do-you-train .group-5-3 {
+  height: 26px;
+  width: 138px;
+}
+
+.profile-desktop-where-do-you-train .text-22 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-where-do-you-train .group-7-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 38px;
+  min-width: 113px;
+}
+
+.profile-desktop-where-do-you-train .certified-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 80px;
+}
+
+.profile-desktop-where-do-you-train .ic-verified-4 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-where-do-you-train .group-10-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 329px;
+  min-width: 192px;
+}
+
+.profile-desktop-where-do-you-train .group-8-4 {
+  align-items: center;
+  display: flex;
+  min-width: 97px;
+}
+
+.profile-desktop-where-do-you-train .like-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 30px;
+  text-align: right;
+}
+
+.profile-desktop-where-do-you-train .ic-like-4 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-where-do-you-train .number-4 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-where-do-you-train .group-9-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  min-width: 77px;
+}
+
+.profile-desktop-where-do-you-train .share-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 44px;
+}
+
+.profile-desktop-where-do-you-train .ic-share-4 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-where-do-you-train .group-49-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 89px;
+  width: 789px;
+}
+
+.profile-desktop-where-do-you-train .bio-4 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-where-do-you-train .frame-1-5 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-top: 15px;
+  min-width: 787px;
+  padding: 0 16px;
+}
+
+.profile-desktop-where-do-you-train .text-20 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 755px;
+}
+
+.profile-desktop-where-do-you-train .group-18-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 69px;
+  width: 331px;
+}
+
+.profile-desktop-where-do-you-train .choose-price-4 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-where-do-you-train .group-16-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 331px;
+}
+
+.profile-desktop-where-do-you-train .rp-200000hour-4 {
+  letter-spacing: 0;
+  min-height: 38px;
+  min-width: 281px;
+}
+
+.profile-desktop-where-do-you-train .ic-down-4 {
+  height: 38px;
+  margin-left: 10px;
+  width: 38px;
+}
+
+.profile-desktop-where-do-you-train .frame-2-12 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 28px;
+  min-width: 220px;
+}
+
+.profile-desktop-where-do-you-train .book-now-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 220px;
+}
+
+.profile-desktop-where-do-you-train .group-17-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  min-height: 344px;
+  width: 849px;
+}
+
+.profile-desktop-where-do-you-train .choose-package-4 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-where-do-you-train .group-15-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 354px;
+}
+
+.profile-desktop-where-do-you-train .frame-2-13 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-where-do-you-train .package-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 76px;
+}
+
+.profile-desktop-where-do-you-train .frame-15 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  margin-left: 15px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-where-do-you-train .text-21 {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 24px;
+  min-height: 81px;
+  width: 845px;
+}
+
+.profile-desktop-where-do-you-train .group-56-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 61px;
+  width: 147px;
+}
+
+.profile-desktop-where-do-you-train .surname-4 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-where-do-you-train .price-4 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 29px;
+}
+
+.profile-desktop-where-do-you-train .frame-2-14 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 20px;
+  min-width: 220px;
+}
+
+.profile-desktop-where-do-you-train .group-58-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 70px;
+  min-height: 777px;
+  position: absolute;
+  top: 70px;
+  width: 255px;
+}
+
+.profile-desktop-where-do-you-train .dummy-image-4 {
+  height: 255px;
+  object-fit: cover;
+  width: 255px;
+}
+
+.profile-desktop-where-do-you-train .qr-c-ode-3 {
+  height: 255px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.profile-desktop-where-do-you-train .group-25-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 227px;
+  width: 257px;
+}
+
+.profile-desktop-where-do-you-train .available-on-4 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-where-do-you-train .frame-5-5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 192px;
+  padding: 12px 16px;
+  width: 255px;
+}
+
+.profile-desktop-where-do-you-train .frame-16 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 209px;
+}
+
+.profile-desktop-where-do-you-train .monday-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-where-do-you-train .text-2-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 104px;
+}
+
+.profile-desktop-where-do-you-train .tuesday-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-where-do-you-train .wednesday-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-where-do-you-train .friday-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-where-do-you-train .group-57 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  margin-top: 40px;
+  min-height: 95px;
+  width: 845px;
+  z-index: 3;
+}
+
+.profile-desktop-where-do-you-train .overlap-group-4 {
+  height: 39px;
+  position: relative;
+  width: 845px;
+}
+
+.profile-desktop-where-do-you-train .rectangle-6-4 {
+  background-color: var(--mercury);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 845px;
+}
+
+.profile-desktop-where-do-you-train .group-21-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 831px;
+  position: absolute;
+  top: 0;
+}
+
+.profile-desktop-where-do-you-train .instructor-type-4 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 114px;
+}
+
+.profile-desktop-where-do-you-train .who-do-they-train-4 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 134px;
+}
+
+.profile-desktop-where-do-you-train .group-20-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 39px;
+  width: 162px;
+}
+
+.profile-desktop-where-do-you-train .where-do-they-train-4 {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.profile-desktop-where-do-you-train .rectangle-7-5 {
+  background-color: var(--black);
+  height: 5px;
+  margin-top: 12px;
+  width: 38px;
+}
+
+.profile-desktop-where-do-you-train .posts-4 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 26px;
+  min-height: 22px;
+  min-width: 41px;
+}
+
+.profile-desktop-where-do-you-train .text-23 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 171px;
+}
+
+.profile-desktop-where-do-you-train .reviews-3 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+}
+
+.profile-desktop-where-do-you-train .group-38 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 24px;
+  min-width: 745px;
+}
+
+.profile-desktop-where-do-you-train .group-30-1 {
+  align-items: center;
+  display: flex;
+  min-width: 194px;
+}
+
+.profile-desktop-where-do-you-train .ic-check {
+  height: 22px;
+  width: 22px;
+}
+
+.profile-desktop-where-do-you-train .ic-personal-studio {
+  height: 32px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.profile-desktop-where-do-you-train .personal-studio {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 118px;
+}
+
+.profile-desktop-where-do-you-train .group-31 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  min-width: 176px;
+}
+
+.profile-desktop-where-do-you-train .ic-clients-home {
+  height: 32px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.profile-desktop-where-do-you-train .clients-home {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 100px;
+}
+
+.profile-desktop-where-do-you-train .group-32-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  min-width: 121px;
+}
+
+.profile-desktop-where-do-you-train .ic-facility {
+  height: 32px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.profile-desktop-where-do-you-train .facility {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 45px;
+}
+
+.profile-desktop-where-do-you-train .group-33 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  min-width: 106px;
+}
+
+.profile-desktop-where-do-you-train .ic-park {
+  height: 32px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 32px;
+}
+
+.profile-desktop-where-do-you-train .surname-5 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 30px;
+}
+
+.profile-desktop-where-do-you-train .header-9 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+  min-height: 70px;
+  width: 1280px;
+  z-index: 2;
+}
+
+.profile-desktop-where-do-you-train .rectangle-2-9 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 1280px;
+}
+
+.profile-desktop-where-do-you-train .logo-instructor-9 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+/* screen - profile-desktop-who-do-you-train */
+
+.profile-desktop-who-do-you-train {
+  align-items: flex-end;
+  background-color: var(--coconut);
+  display: flex;
+  flex-direction: column;
+  height: 1224px;
+  width: 1280px;
+}
+
+.profile-desktop-who-do-you-train .header-10 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 4;
+}
+
+.profile-desktop-who-do-you-train .logo-instructor-10 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-desktop-who-do-you-train .rectangle-2-10 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 1280px;
+}
+
+.profile-desktop-who-do-you-train .overlap-group1-5 {
+  height: 873px;
+  margin-top: 70px;
+  position: relative;
+  width: 1280px;
+  z-index: 1;
+}
+
+.profile-desktop-who-do-you-train .bg-dummy-5 {
+  height: 197px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.profile-desktop-who-do-you-train .group-49-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 365px;
+  min-height: 797px;
+  position: absolute;
+  top: 76px;
+  width: 847px;
+}
+
+.profile-desktop-who-do-you-train .name-7 {
+  letter-spacing: 0;
+  min-height: 59px;
+}
+
+.profile-desktop-who-do-you-train .group-11-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 845px;
+}
+
+.profile-desktop-who-do-you-train .group-6-5 {
+  align-items: center;
+  display: flex;
+  min-width: 173px;
+}
+
+.profile-desktop-who-do-you-train .group-5-4 {
+  height: 26px;
+  width: 138px;
+}
+
+.profile-desktop-who-do-you-train .text-30 {
+  letter-spacing: 0;
+  margin-left: 5px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-who-do-you-train .group-7-5 {
+  align-items: center;
+  display: flex;
+  margin-left: 38px;
+  min-width: 113px;
+}
+
+.profile-desktop-who-do-you-train .certified-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 80px;
+}
+
+.profile-desktop-who-do-you-train .ic-verified-5 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-who-do-you-train .group-10-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 329px;
+  min-width: 192px;
+}
+
+.profile-desktop-who-do-you-train .group-8-5 {
+  align-items: center;
+  display: flex;
+  min-width: 97px;
+}
+
+.profile-desktop-who-do-you-train .like-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 30px;
+  text-align: right;
+}
+
+.profile-desktop-who-do-you-train .ic-like-5 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-who-do-you-train .number-5 {
+  letter-spacing: 0;
+  margin-left: 4px;
+  min-height: 22px;
+  min-width: 28px;
+}
+
+.profile-desktop-who-do-you-train .group-9-5 {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  min-width: 77px;
+}
+
+.profile-desktop-who-do-you-train .share-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 44px;
+}
+
+.profile-desktop-who-do-you-train .ic-share-5 {
+  height: 26px;
+  margin-left: 5px;
+  width: 26px;
+}
+
+.profile-desktop-who-do-you-train .group-49-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  min-height: 89px;
+  width: 789px;
+}
+
+.profile-desktop-who-do-you-train .bio-5 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-who-do-you-train .frame-1-6 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 54px;
+  margin-top: 15px;
+  min-width: 787px;
+  padding: 0 16px;
+}
+
+.profile-desktop-who-do-you-train .text-28 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 755px;
+}
+
+.profile-desktop-who-do-you-train .group-18-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  min-height: 69px;
+  width: 331px;
+}
+
+.profile-desktop-who-do-you-train .choose-price-5 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-who-do-you-train .group-16-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 11px;
+  min-width: 331px;
+}
+
+.profile-desktop-who-do-you-train .rp-200000hour-5 {
+  letter-spacing: 0;
+  min-height: 38px;
+  min-width: 281px;
+}
+
+.profile-desktop-who-do-you-train .ic-down-5 {
+  height: 38px;
+  margin-left: 10px;
+  width: 38px;
+}
+
+.profile-desktop-who-do-you-train .frame-2-15 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 28px;
+  min-width: 220px;
+}
+
+.profile-desktop-who-do-you-train .book-now-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 220px;
+}
+
+.profile-desktop-who-do-you-train .group-17-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  min-height: 344px;
+  width: 849px;
+}
+
+.profile-desktop-who-do-you-train .choose-package-5 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-who-do-you-train .group-15-5 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 354px;
+}
+
+.profile-desktop-who-do-you-train .frame-2-16 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-who-do-you-train .package-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 76px;
+}
+
+.profile-desktop-who-do-you-train .frame-17 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 46px;
+  margin-left: 15px;
+  min-width: 108px;
+  padding: 0 16px;
+}
+
+.profile-desktop-who-do-you-train .text-29 {
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: 24px;
+  min-height: 81px;
+  width: 845px;
+}
+
+.profile-desktop-who-do-you-train .group-56-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 61px;
+  width: 147px;
+}
+
+.profile-desktop-who-do-you-train .surname-6 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-who-do-you-train .price-5 {
+  letter-spacing: 0;
+  margin-top: 12px;
+  min-height: 29px;
+}
+
+.profile-desktop-who-do-you-train .frame-2-17 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-top: 20px;
+  min-width: 220px;
+}
+
+.profile-desktop-who-do-you-train .group-50 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 70px;
+  min-height: 777px;
+  position: absolute;
+  top: 70px;
+  width: 255px;
+}
+
+.profile-desktop-who-do-you-train .dummy-image-5 {
+  height: 255px;
+  object-fit: cover;
+  width: 255px;
+}
+
+.profile-desktop-who-do-you-train .qr-c-ode-4 {
+  height: 255px;
+  margin-top: 20px;
+  width: 255px;
+}
+
+.profile-desktop-who-do-you-train .group-25-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 227px;
+  width: 257px;
+}
+
+.profile-desktop-who-do-you-train .available-on-5 {
+  letter-spacing: 0;
+  min-height: 20px;
+}
+
+.profile-desktop-who-do-you-train .frame-5-6 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 192px;
+  padding: 12px 16px;
+  width: 255px;
+}
+
+.profile-desktop-who-do-you-train .frame-18 {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 209px;
+}
+
+.profile-desktop-who-do-you-train .monday-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-who-do-you-train .text-3-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 104px;
+}
+
+.profile-desktop-who-do-you-train .tuesday-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-who-do-you-train .wednesday-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-who-do-you-train .friday-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+  width: 95px;
+}
+
+.profile-desktop-who-do-you-train .group-48 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  margin-top: 40px;
+  min-height: 95px;
+  width: 845px;
+  z-index: 3;
+}
+
+.profile-desktop-who-do-you-train .overlap-group-5 {
+  height: 39px;
+  position: relative;
+  width: 845px;
+}
+
+.profile-desktop-who-do-you-train .rectangle-6-5 {
+  background-color: var(--mercury);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 38px;
+  width: 845px;
+}
+
+.profile-desktop-who-do-you-train .group-21-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  left: 0;
+  min-width: 830px;
+  position: absolute;
+  top: 0;
+}
+
+.profile-desktop-who-do-you-train .instructor-type-5 {
+  cursor: pointer;
+  letter-spacing: 0;
+  min-height: 22px;
+  min-width: 114px;
+}
+
+.profile-desktop-who-do-you-train .group-20-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 39px;
+  width: 146px;
+}
+
+.profile-desktop-who-do-you-train .who-do-they-train-5 {
+  letter-spacing: 0;
+  min-height: 22px;
+}
+
+.profile-desktop-who-do-you-train .rectangle-7-6 {
+  background-color: var(--black);
+  height: 5px;
+  margin-top: 12px;
+  width: 38px;
+}
+
+.profile-desktop-who-do-you-train .where-do-they-train-5 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 26px;
+  min-height: 22px;
+  min-width: 149px;
+}
+
+.profile-desktop-who-do-you-train .posts-5 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 41px;
+}
+
+.profile-desktop-who-do-you-train .text-31 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+  min-width: 171px;
+}
+
+.profile-desktop-who-do-you-train .reviews-4 {
+  cursor: pointer;
+  letter-spacing: 0;
+  margin-left: 28px;
+  min-height: 22px;
+}
+
+.profile-desktop-who-do-you-train .group-38-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 24px;
+  min-width: 625px;
+}
+
+.profile-desktop-who-do-you-train .group-30-2 {
+  align-items: center;
+  /*display: flex;
+  min-width: 110px;*/
+}
+
+.profile-desktop-who-do-you-train .ic-check-1 {
+  height: 22px;
+  width: 22px;
+}
+
+.profile-desktop-who-do-you-train .ic-men {
+  height: 32px;
+  margin-left: 10px;
+  width: 32px;
+}
+
+.profile-desktop-who-do-you-train .men {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 34px;
+}
+
+.profile-desktop-who-do-you-train .group-31-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  min-width: 135px;
+}
+
+.profile-desktop-who-do-you-train .ic-woman {
+  height: 32px;
+  margin-left: 10px;
+  width: 32px;
+}
+
+.profile-desktop-who-do-you-train .women {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 59px;
+}
+
+.profile-desktop-who-do-you-train .group-32-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  min-width: 108px;
+}
+
+.profile-desktop-who-do-you-train .ic-kids {
+  height: 32px;
+  margin-left: 10px;
+  width: 32px;
+}
+
+.profile-desktop-who-do-you-train .kids {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 32px;
+}
+
+.profile-desktop-who-do-you-train .group-33-1 {
+  align-items: center;
+  display: flex;
+  margin-left: 50px;
+  min-width: 124px;
+}
+
+.profile-desktop-who-do-you-train .ic-group {
+  height: 32px;
+  margin-left: 10px;
+  width: 32px;
+}
+
+.profile-desktop-who-do-you-train .group-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 22px;
+  min-width: 48px;
+}
+
+.profile-desktop-who-do-you-train .header-11 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 76px;
+  min-height: 70px;
+  width: 1280px;
+  z-index: 2;
+}
+
+.profile-desktop-who-do-you-train .rectangle-2-11 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 1280px;
+}
+
+.profile-desktop-who-do-you-train .logo-instructor-11 {
+  height: 38px;
+  margin-left: 70px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+/* screen - profile-mobile */
+
+.profile-mobile {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  /*height: 3840px;*/
+  overflow: hidden;
+  width: 375px;
+}
+
+.profile-mobile .header-12 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 375px;
+  z-index: 5;
+}
+
+.profile-mobile .logo-instructor-12 {
+  height: 38px;
+  margin-top: 16px;
+  object-fit: cover;
+  width: 163px;
+}
+
+.profile-mobile .rectangle-2-12 {
+  background-color: var(--mercury);
+  height: 1px;
+  margin-top: 15px;
+  width: 375px;
+}
+
+.profile-mobile .overlap-group1-6 {
+  height: 220px;
+  margin-top: 0px;
+  position: relative;
+  width: 375px;
+  z-index: 1;
+}
+
+.profile-mobile .bg-dummy-6 {
+  height: 135px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.profile-mobile .dummy-image-6 {
+  height: 170px;
+  left: 102px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 170px;
+}
+
+.profile-mobile .name-8 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  min-height: 34px;
+  min-width: 181px;
+  text-align: center;
+  z-index: 2;
+}
+
+.profile-mobile .group-45 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  margin-top: 15px;
+ /* min-height: 3382px;*/
+  width: 377px;
+  z-index: 3;
+}
+
+.profile-mobile .group-27 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.0px;
+  min-height: 63px;
+  width: 163px;
+}
+
+.profile-mobile .group-6-6 {
+  align-items: center;
+  display: flex;
+  margin-left: 2.0px;
+  min-width: 165px;
+}
+
+.profile-mobile .group-5-5 {
+  height: 24px;
+  width: 128px;
+}
+
+.profile-mobile .text-9 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 25px;
+}
+
+.profile-mobile .group-7-6 {
+  align-items: center;
+  display: flex;
+  margin-left: 3.0px;
+  margin-top: 15px;
+  min-width: 106px;
+}
+
+.profile-mobile .certified-6 {
+  color: var(--malachite);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  min-height: 19px;
+  min-width: 70px;
+}
+
+.profile-mobile .ic-verified-6 {
+  height: 24px;
+  margin-left: 10px;
+  width: 24px;
+}
+
+.profile-mobile .group-10-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 2.0px;
+  margin-top: 15px;
+  min-width: 187px;
+}
+
+.profile-mobile .group-8-6 {
+  align-items: center;
+  display: flex;
+  min-width: 91px;
+}
+
+.profile-mobile .like-6 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  min-height: 19px;
+  min-width: 27px;
+  text-align: right;
+}
+
+.profile-mobile .ic-like-6 {
+  height: 24px;
+  margin-left: 5px;
+  width: 24px;
+}
+
+.profile-mobile .number-6 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  margin-left: 6px;
+  min-height: 19px;
+  min-width: 25px;
+}
+
+.profile-mobile .group-9-6 {
+  align-items: center;
+  display: flex;
+  margin-left: 23px;
+  min-width: 75px;
+}
+
+.profile-mobile .share-6 {
+  letter-spacing: 0;
+  margin-bottom: 1.0px;
+  min-height: 19px;
+  min-width: 38px;
+}
+
+.profile-mobile .ic-share-6 {
+  height: 24px;
+  margin-left: 11px;
+  width: 24px;
+}
+
+.profile-mobile .qr-c-ode-mobile {
+  height: 225px;
+  margin-right: 2.0px;
+  margin-top: 32px;
+  width: 225px;
+}
+
+.profile-mobile .group-25-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  min-height: 215px;
+  width: 347px;
+}
+
+.profile-mobile .available-on-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.profile-mobile .frame-5-7 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  min-height: 180px;
+  padding: 12px 16px;
+  width: 345px;
+}
+
+.profile-mobile .frame-19 {
+  align-items: center;
+  display: flex;
+  height: 39px;
+  min-width: 241px;
+}
+
+.profile-mobile .monday-6 {
+  letter-spacing: 0;
+  min-height: 19px;
+  width: 140px;
+}
+
+.profile-mobile .text-1-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 91px;
+}
+
+.profile-mobile .tuesday-6 {
+  letter-spacing: 0;
+  min-height: 19px;
+  width: 140px;
+}
+
+.profile-mobile .wednesday-6 {
+  letter-spacing: 0;
+  min-height: 19px;
+  width: 140px;
+}
+
+.profile-mobile .friday-6 {
+  letter-spacing: 0;
+  min-height: 19px;
+  width: 140px;
+}
+
+.profile-mobile .group-63 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  min-height: 137px;
+  width: 347px;
+}
+
+.profile-mobile .bio-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.profile-mobile .frame-1-7 {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  height: 104px;
+  margin-top: 15px;
+  min-width: 345px;
+  padding: 0 16px;
+}
+
+.profile-mobile .text-10 {
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 72px;
+  text-align: center;
+  width: 313px;
+}
+
+.profile-mobile .group-18-6 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 32px;
+  min-height: 59px;
+  width: 252px;
+}
+
+.profile-mobile .choose-price-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.profile-mobile .group-16-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 12px;
+  min-width: 252px;
+}
+
+.profile-mobile .rp-200000hour-6 {
+  letter-spacing: 0;
+  min-height: 29px;
+  min-width: 211px;
+}
+
+.profile-mobile .ic-down-6 {
+  height: 29px;
+  margin-left: 10px;
+  width: 29px;
+}
+
+.profile-mobile .frame-2-18 {
+  align-items: center;
+  background-color: var(--gargoyle-gas);
+  border-radius: 5px;
+  display: flex;
+  height: 62px;
+  margin-right: 2.0px;
+  margin-top: 20px;
+  min-width: 345px;
+}
+
+.profile-mobile .book-now-6 {
+  letter-spacing: 0;
+  min-height: 22px;
+  text-align: center;
+  width: 345px;
+}
+
+.profile-mobile .group-17-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 18.0px;
+  margin-top: 32px;
+  min-height: 76px;
+  width: 329px;
+}
+
+.profile-mobile .choose-package-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.profile-mobile .group-15-6 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 327px;
+}
+
+.profile-mobile .frame-2-19 {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 43px;
+  min-width: 99px;
+  padding: 0 16px;
+}
+
+.profile-mobile .package-a {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 67px;
+}
+
+.profile-mobile .frame-20 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  height: 43px;
+  margin-left: 15px;
+  min-width: 99px;
+  padding: 0 16px;
+}
+
+.profile-mobile .package-6 {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 67px;
+}
+
+.profile-mobile .text-15 {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-right: 2.0px;
+  margin-top: 20px;
+  min-height: 144px;
+  width: 345px;
+}
+
+.profile-mobile .group-56-6 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 20px;
+  min-height: 53px;
+  width: 131px;
+}
+
+.profile-mobile .surname-7 {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.profile-mobile .price-6 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 25px;
+}
+
+.profile-mobile .group-62 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.0px;
+  margin-top: 40px;
+  /*min-height: 1969px;*/
+  width: 375px;
+}
+
+.profile-mobile .group-61-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /*min-height: 330px;*/
+  width: 375px;
+}
+
+.profile-mobile .rectangle {
+  background-color: var(--mercury);
+  height: 5px;
+  width: 375px;
+}
+
+.profile-mobile .group-37 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /*min-height: 305px;*/
+  width: 345px;
+}
+
+.profile-mobile .type {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 313px;
+}
+
+.profile-mobile .overlap-group-6 {
+  height: 100%;
+  margin-top: 12px;
+  position: relative;
+  width: 345px;
+}
+
+.profile-mobile .frame-3-1 {
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.profile-mobile .frame-8-1 {
+  align-items: center;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 345px;
+  padding: 0 52px;
+  position: absolute;
+  top: 49px;
+}
+
+.profile-mobile .bodybuilding-1 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 164px;
+}
+
+.profile-mobile .frame-12-1 {
+  align-items: center;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 345px;
+  padding: 0 52px;
+  position: absolute;
+  top: 94px;
+}
+
+.profile-mobile .body-sculpting-1 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 164px;
+}
+
+.profile-mobile .frame-11-1 {
+  align-items: center;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 345px;
+  padding: 0 52px;
+  position: absolute;
+  top: 139px;
+}
+
+.profile-mobile .weight-loss-1 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 164px;
+}
+
+.profile-mobile .frame-10-1 {
+  align-items: center;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 345px;
+  padding: 0 52px;
+  position: absolute;
+  top: 184px;
+}
+
+.profile-mobile .weight-gain-1 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 164px;
+}
+
+.profile-mobile .frame-9-1 {
+  align-items: center;
+  display: flex;
+  height: 46px;
+  left: 0;
+  min-width: 345px;
+  padding: 0 52px;
+  position: absolute;
+  top: 229px;
+}
+
+.profile-mobile .cross-fit {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 164px;
+}
+
+.profile-mobile .group-55 {
+  /*align-items: flex-start;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  margin-top: 20px;
+  min-height: 137px;
+  width: 375px;
+}
+
+.profile-mobile .group-29 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 20px;
+  /*min-height: 137px;*/
+  width: 315px;
+}
+
+.profile-mobile .who-do-they-train-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 313px;
+}
+
+.profile-mobile .group-38-2 {
+  align-items: flex-start;
+  display: flex;
+  /*height: 274px;*/
+  margin-top: 20px;
+  min-width: 245px;
+  margin-bottom:10px;
+}
+
+.profile-mobile .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 74px;
+  width: 100%;
+  margin-bottom:10px;
+}
+
+.profile-mobile .group-30-3 {
+  align-items: center;
+  display: flex;
+  min-width: 98px;
+}
+
+.profile-mobile .ic-check-2 {
+  height: 19px;
+  width: 19px;
+}
+
+.profile-mobile .ic-men-1 {
+  height: 27px;
+  margin-left: 10px;
+  width: 27px;
+}
+
+.profile-mobile .men-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 30px;
+}
+
+.profile-mobile .group-32-3 {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  min-width: 96px;
+}
+
+.profile-mobile .ic-kids-1 {
+  height: 27px;
+  margin-left: 10px;
+  width: 27px;
+}
+
+.profile-mobile .kids-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 28px;
+}
+
+.profile-mobile .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  min-height: 74px;
+  width: 121px;
+}
+
+.profile-mobile .group-31-2 {
+  align-items: center;
+  display: flex;
+  margin-left: 2px;
+  min-width: 119px;
+}
+
+.profile-mobile .ic-woman-1 {
+  height: 27px;
+  margin-left: 10px;
+  width: 27px;
+}
+
+.profile-mobile .women-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 51px;
+}
+
+.profile-mobile .group-33-2 {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  min-width: 110px;
+}
+
+.profile-mobile .ic-group-1 {
+  height: 27px;
+  margin-left: 10px;
+  width: 27px;
+}
+
+.profile-mobile .group-2 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 42px;
+}
+
+.profile-mobile .group-54 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 184px;
+  width: 375px;
+}
+
+.profile-mobile .group-30-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 20px;
+  /*min-height: 159px;*/
+  width: 315px;
+}
+
+.profile-mobile .where-do-they-train-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 313px;
+}
+
+.profile-mobile .group-30-5 {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  min-width: 171px;
+}
+
+.profile-mobile .ic-personal-studio-1 {
+  height: 27px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 27px;
+}
+
+.profile-mobile .personal-studio-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 103px;
+}
+
+.profile-mobile .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 20px;
+  min-width: 299px;
+}
+
+.profile-mobile .group-31-3 {
+  align-items: center;
+  display: flex;
+  min-width: 156px;
+}
+
+.profile-mobile .ic-clients-home-1 {
+  height: 27px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 27px;
+}
+
+.profile-mobile .clients-home-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 88px;
+}
+
+.profile-mobile .group-32-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+  min-width: 113px;
+}
+
+.profile-mobile .group-32-5 {
+  align-items: center;
+  display: flex;
+  margin-left: 30px;
+  min-width: 113px;
+}
+
+.profile-mobile .ic-facility-1 {
+  height: 27px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 27px;
+}
+
+.profile-mobile .facility-1 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 45px;
+}
+
+.profile-mobile .group-33-3 {
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  min-width: 98px;
+}
+
+.profile-mobile .ic-park-1 {
+  height: 27px;
+  margin-left: 10px;
+  object-fit: cover;
+  width: 27px;
+}
+
+.profile-mobile .surname-8 {
+  letter-spacing: 0;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 30px;
+}
+
+.profile-mobile .group-51 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+ /* min-height: 768px;*/
+  width: 375px;
+}
+
+.profile-mobile .group-33-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  margin-top: 20px;
+  min-height: 743px;
+  width: 347px;
+}
+
+.profile-mobile .posts-6 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 313px;
+}
+
+.profile-mobile .before-img-1 {
+  height: 345px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 345px;
+}
+
+.profile-mobile .after-img-1 {
+  height: 345px;
+  margin-top: 20px;
+  object-fit: cover;
+  width: 345px;
+}
+
+.profile-mobile .group-52 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  min-height: 178px;
+  width: 375px;
+}
+
+.profile-mobile .group-32-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 26.0px;
+  margin-top: 20px;
+  min-height: 153px;
+  width: 319px;
+}
+
+.profile-mobile .text-17 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 313px;
+}
+
+.profile-mobile .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 15px;
+  min-width: 188px;
+}
+
+.profile-mobile .ic-ig-1 {
+  height: 32px;
+  width: 32px;
+}
+
+.profile-mobile .flex-row-item-1 {
+  height: 32px;
+  margin-left: 20px;
+  width: 32px;
+}
+
+.profile-mobile .text-18 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 20px;
+  min-height: 21px;
+  white-space: nowrap;
+}
+
+.profile-mobile .text-19 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 5px;
+  min-height: 42px;
+  text-decoration: underline;
+  width: 255px;
+}
+
+.profile-mobile .group-53 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 184px;
+  width: 375px;
+}
+
+.profile-mobile .group-34-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12.0px;
+  margin-top: 20px;
+  min-height: 245px;
+  width: 333px;
+}
+
+.profile-mobile .reviews-5 {
+  letter-spacing: 0;
+  min-height: 18px;
+  width: 313px;
+}
+
+.profile-mobile .group-39-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-height: 176px;
+  width: 317px;
+}
+
+.profile-mobile .total-113-riviews {
+  letter-spacing: 0;
+  min-height: 18px;
+}
+
+.profile-mobile .group-34-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 143px;
+  margin-top: 15px;
+  min-width: 315px;
+}
+
+.profile-mobile .pic-dummy1 {
+  height: 45px;
+  object-fit: cover;
+  width: 45px;
+}
+
+.profile-mobile .group-30-6 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-height: 143px;
+  width: 261px;
+}
+
+.profile-mobile .group-5-6 {
+  height: 20px;
+  width: 108px;
+}
+
+.profile-mobile .name-9 {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-top: 10px;
+  min-height: 22px;
+}
+
+.profile-mobile .address-1 {
+  color: var(--black-2);
+  font-family: var(--font-family-open_sans);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 2px;
+  min-height: 16px;
+  width: 255px;
+}
+
+.profile-mobile .text-16 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 10px;
+  min-height: 63px;
+  width: 255px;
+}
+
+.profile-mobile .view-more-1 {
+  align-self: flex-end;
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-right: 4px;
+  margin-top: 20px;
+  min-height: 16px;
+  text-align: center;
+  text-decoration: underline;
+  width: 313px;
+}
+
+.profile-mobile .footer {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  margin-top: 34px;
+  min-height: 70px;
+  width: 375px;
+  z-index: 4;
+}
+
+.profile-mobile .rectangle-2-13 {
+  background-color: var(--mercury);
+  height: 1px;
+  width: 375px;
+}
+
+.profile-mobile .logo-instructor-13 {
+  height: 38px;
+  margin-top: 15px;
+  object-fit: cover;
+  width: 163px;
+}
+@media screen and (max-width: 700px) {
+  .screen.profile-desktop { 
+    display: none;
+   }
+  .screen.profile-desktop-where-do-you-train { 
+    display: block;
+   }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .screen.profile-desktop { 
+    display: none;
+   }
+  .screen.profile-mobile { 
+    display: block;
+   }
+  
+}
+/*@media screen and (min-width: 300px) and (max-width: 700px) {
+  .screen.profile-desktop { 
+    display: none;
+   }
+  .screen.profile-mobile { 
+    display: block;
+   }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .screen.profile-desktop { 
+    display: none;
+   }
+  .screen.profile-mobile { 
+    display: block;
+   }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .screen.profile-desktop { 
+    display: none;
+   }
+  .screen.profile-mobile { 
+    display: block;
+   }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .screen.profile-desktop { 
+    display: none;
+   }
+  .screen.profile-mobile { 
+    display: block;
+   }
+  
+}*/
+@media screen and (min-width: 1280px) {
+  .screen.profile-mobile { 
+    display: none;
+   }
+}

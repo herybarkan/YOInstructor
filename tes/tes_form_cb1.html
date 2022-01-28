@@ -1,0 +1,29 @@
+<form id="myform" class="myform" method="post" name="myform">
+<textarea id="myField" type="text" name="myField"></textarea>
+<input type="checkbox" name="myCheckboxes[]" id="myCheckboxes" value="someValue1" />
+<input type="checkbox" name="myCheckboxes[]" id="myCheckboxes" value="someValue2" />
+<input id="submit" type="submit" name="submit" value="Submit" onclick="return submitForm()" />
+</form>
+ <div id="myResponse"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+function submitForm() {
+var form = document.myform;
+
+var dataString = $(form).serialize();
+
+
+$.ajax({
+    type:'POST',
+    url:'tes_form_cb_tampil1.php',
+    data: dataString,
+    success: function(data){
+        $('#myResponse').html(data);
+
+
+    }
+});
+return false;
+}
+</script>

@@ -1,0 +1,15 @@
+<div class="edgtf-full-width">
+<div class="edgtf-full-width-inner">
+<div class="edgtf-grid-row">
+<div class="edgtf-page-content-holder edgtf-grid-col-12">
+<div class="edgtf-row-grid-section-wrapper edgtf-content-aligment-center"><div class="edgtf-row-grid-section"><div class="vc_row wpb_row vc_row-fluid vc_custom_1534500930311"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 class="edgtf-custom-font-holder  edgtf-cf-7871  " style="font-family: Montserrat;font-size: 60px;line-height: 65px;font-weight: 700" data-item-class="edgtf-cf-7871" data-font-size-1366="50px" data-font-size-1024="40px" data-font-size-768="30px" data-font-size-680="20px" data-line-height-1366="55px" data-line-height-1024="45px" data-line-height-768="35px" data-line-height-680="25px">
+880+</h2><h2 class="edgtf-custom-font-holder  edgtf-cf-8771  " style="font-family: Montserrat;font-size: 40px;line-height: 45px;font-weight: 700;text-transform: uppercase" data-item-class="edgtf-cf-8771" data-font-size-1366="35px" data-font-size-1024="30px" data-font-size-768="25px" data-font-size-680="20px" data-line-height-1366="40px" data-line-height-1024="35px" data-line-height-768="20px" data-line-height-680="15px">
+Google Fonts to Choose From</h2><h2 class="edgtf-custom-font-holder  edgtf-cf-3721  " style="font-family: Shorelines Script;font-size: 30px;line-height: 60px;font-weight: 400;text-transform: capitalize;color: #f44a60" data-item-class="edgtf-cf-3721" data-font-size-1366="25px" data-font-size-1024="20px" data-font-size-768="20px" data-font-size-680="15px" data-line-height-1366="55px" data-line-height-1024="50px" data-line-height-768="50px" data-line-height-680="45px">
+Choose Your Font From The Google Collection</h2><h2 class="edgtf-custom-font-holder  edgtf-cf-8409  " style="font-family: Montserrat;font-size: 30px;line-height: 35px;font-weight: 700;text-transform: capitalize" data-item-class="edgtf-cf-8409" data-font-size-1366="30px" data-font-size-1024="25px" data-font-size-768="25px" data-font-size-680="20px" data-line-height-1366="35px" data-line-height-1024="30px" data-line-height-768="30px" data-line-height-680="25px">
+Choose Your Font From The Google Collection</h2><h2 class="edgtf-custom-font-holder  edgtf-cf-6198  " style="font-family: Montserrat;font-size: 20px;line-height: 30px;font-weight: 700;text-transform: uppercase" data-item-class="edgtf-cf-6198">
+Choose Your Font From The Google Collection</h2><h2 class="edgtf-custom-font-holder  edgtf-cf-3666  " style="font-family: Montserrat;font-size: 20px;line-height: 25px;font-weight: 700;text-transform: capitalize;color: #39f3e2" data-item-class="edgtf-cf-3666" data-font-size-1366="20px" data-font-size-1024="15px" data-font-size-768="15px" data-font-size-680="15px" data-line-height-1366="25px" data-line-height-1024="20px" data-line-height-768="20px" data-line-height-680="20px">
+Choose Your Font From The Google Collection</h2></div></div></div></div></div></div>
+</div>
+</div>
+</div>
+</div>

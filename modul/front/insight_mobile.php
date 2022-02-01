@@ -6,7 +6,7 @@ require_once 'Connections/con.php';
 ?>
 
 <?php
-$select_visit=$db->prepare("SELECT COUNT(id_) AS jml_visit FROM tbl_visit WHERE kd_instructor='$_SESSION[yo_kd_user]' GROUP BY ip_address
+$select_visit=$db->prepare("SELECT COUNT(id_) AS jml_visit FROM tbl_visit WHERE page='profile' AND  kd_instructor='$_SESSION[yo_kd_user]' GROUP BY ip_address
 "); //sql select query
    $select_visit->execute();
    $row_visit=$select_visit->fetch(PDO::FETCH_ASSOC);

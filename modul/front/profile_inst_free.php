@@ -91,7 +91,19 @@ session_start();
 }
 </style>
 
-
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+            <script src="js/jquery.bootstrap.js" type="text/javascript"></script>
+            <script src="js/material-bootstrap-wizard.js"></script>
+            <script src="js/jquery.validate.min.js"></script>
+            
+            <script src="js/bootstrap.min2.js"></script>        
+		<link rel="stylesheet" href="css/dropzone.css" />
+		<link href="css/cropper.css" rel="stylesheet"/>
+		<script src="js/dropzone.js"></script>
+		<script src="js/cropper.js"></script>
+        
+		<script src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js" id="jquery-easing-1.3-js"></script>
 
 <?php
 error_reporting(0);

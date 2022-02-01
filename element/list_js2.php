@@ -123,26 +123,26 @@
 			
             
 			
-            <!--<script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>-->
+            <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
             <!--===========================================-->
-            <!--<script src="js/jquery-ui.js"></script>
+            <script src="js/jquery-ui.js"></script>
 			<script type="text/javascript" src="js/jquery.easing.1.3.js" id="jquery-easing-1.3-js"></script>
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <script src="js/jquery.bootstrap.js" type="text/javascript"></script>
             <script src="js/material-bootstrap-wizard.js"></script>
-            <script src="js/jquery.validate.min.js"></script>-->
+            <script src="js/jquery.validate.min.js"></script>
             
-            <!--<script type="text/javascript" src="js/select2.full.min.js" id="select2-js"></script>-->
+            <script type="text/javascript" src="js/select2.full.min.js" id="select2-js"></script>
             <!--===========================================-->
             
       		
 	  		
 		<!--===========================================-->
-        <!--<script src="js/bootstrap.min2.js"></script>        
+        <script src="js/bootstrap.min2.js"></script>        
 		<link rel="stylesheet" href="css/dropzone.css" />
 		<link href="css/cropper.css" rel="stylesheet"/>
 		<script src="js/dropzone.js"></script>
-		<script src="js/cropper.js"></script>-->
+		<script src="js/cropper.js"></script>
         <!--===========================================-->
         
         
@@ -176,7 +176,7 @@ jQuery("#reg_next").click(function (event)
         
       <?php } ?>
       <!--===============================================================-->
-      <!--
+     <!-- 
             <script src="js/bootstrap.min.js" type="text/javascript"></script>
             <script src="js/jquery.bootstrap.js" type="text/javascript"></script>
             <script src="js/material-bootstrap-wizard.js"></script>
